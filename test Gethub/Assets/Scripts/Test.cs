@@ -18,5 +18,7 @@ public class Test : MonoBehaviour
     void Update()
     {
         transform.position += derection * speed * Time.deltaTime ;
+        if(derection > niew Vector3(-1,-1,-1)){ derection -= niew Vector3(1,1,1)} else {derection += niew Vector3(1,1,1)}
+        
     }
 }
