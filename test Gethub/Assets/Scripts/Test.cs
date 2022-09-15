@@ -7,7 +7,7 @@ public class Test : MonoBehaviour
 
     public Transform transform;
     public float speed = 1f;
-    public Vector3 derection  = new Vector3(0,1,0);
+    public Vector3 derection  = new Vector3(1,1,1);
     // Start is called before the first frame update
     void Start()
     {
@@ -18,7 +18,8 @@ public class Test : MonoBehaviour
     void Update()
     {
         transform.position += derection * speed * Time.deltaTime ;
-        if(derection > niew Vector3(-1,-1,-1)){ derection -= niew Vector3(1,1,1)} else {derection += niew Vector3(1,1,1)}
+        if(transform.position.x > 5) { derection = new Vector3(-1,-1,-1); } 
+        else if(transform.position.x < -5) {derection = new Vector3(1,1,1); }
         
     }
 }
