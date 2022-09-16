@@ -37,6 +37,8 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Player\PlayerCam.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerCameraPosition.cs" />
+     <Compile Include="Assets\Scripts\Player\PlayerMovment.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Users\Tilo\OneDrive\Unity\Projecten\2021.3.8f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
