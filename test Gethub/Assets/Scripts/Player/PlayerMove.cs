@@ -36,7 +36,7 @@ public class PlayerMove : MonoBehaviour
     bool readyToJump = true;
 
     
-
+    
     
 
     void Start()
@@ -51,14 +51,14 @@ public class PlayerMove : MonoBehaviour
         SpeedCalculator();
 
 
-        //Ground Check 
+        
         grounded =      
             Physics
                 .Raycast(transform.position,
                 Vector3.down,
                 1.2f,
                 whatIsGround);
-
+     
 
         // Aply Drag
         if (grounded)
@@ -73,7 +73,7 @@ public class PlayerMove : MonoBehaviour
 
     void FixedUpdate()
     {
-        if (grounded)PlayerMovement();
+        PlayerMovement();
     }
 
    private void MyInput()
@@ -101,13 +101,13 @@ public class PlayerMove : MonoBehaviour
         moveDirection = orientation.forward *verticalInput  +horizontalInput  * orientation.right;
     
         if (grounded) 
-        {
+        { 
             rb
                 .AddForce(moveDirection.normalized * MovmendSpeed * 10,
                 ForceMode.Force);
         }
-        else if (!grounded)
-        {
+        else 
+        {   
             rb
                 .AddForce(moveDirection.normalized *
                 MovmendSpeed *
