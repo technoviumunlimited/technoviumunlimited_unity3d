@@ -1,0 +1,559 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1663756916332418, "dur": 1570953, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663756916332698, "dur": 7671, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663756916340371, "dur": 33262, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663756916373635, "dur": 531603, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663756916905241, "dur": 986223, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663756917891467, "dur": 11904, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663756917903936, "dur": 13, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1663756916726055, "dur": 154651, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663756916727058, "dur": 47746, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663756916862296, "dur": 4592, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663756916866890, "dur": 13808, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663756916867567, "dur": 12127, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663756916885463, "dur": 1492, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1663756916884712, "dur": 2270, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663756917904071, "dur": 192, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1663756916945797, "dur":1743, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756916947546, "dur":38, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1663756916947596, "dur":15, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1663756916947612, "dur":527, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1663756916948164, "dur":591, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756916948755, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868461, "dur":302, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868763, "dur":30, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868793, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868795, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868808, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868810, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868821, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868823, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868837, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868840, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868851, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868854, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868859, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868860, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868866, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868868, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868873, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868874, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868879, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868881, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868886, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868887, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868893, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868894, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868899, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868900, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868906, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868907, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868912, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868913, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868918, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868919, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868925, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868938, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917868953, "dur":4158, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1663756916948174, "dur":587, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663756916948763, "dur":5010, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663756916953786, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663756916953791, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663756916958862, "dur":528, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663756916959394, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663756916959455, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663756916959651, "dur":10352, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1663756916970005, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1663756916970136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663756916970145, "dur":53077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1663756917023271, "dur":125594, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663756917148871, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663756917148881, "dur":2633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663756917151584, "dur":82727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663756917234315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663756917234323, "dur":2058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663756917236429, "dur":26679, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663756917263113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663756917263123, "dur":2171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663756917265333, "dur":35763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663756917301101, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663756917301114, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663756917302274, "dur":44974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663756917347253, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663756917347267, "dur":10399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663756917357729, "dur":173781, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663756917531518, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663756917531531, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663756917532742, "dur":140291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663756917673041, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1663756917673056, "dur":1778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1663756917674862, "dur":193615, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663756916948231, "dur":542, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663756916948774, "dur":5245, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663756916954019, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1663756916954132, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663756916977676, "dur":6343, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1663756916984072, "dur":164722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663756917148799, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663756917148809, "dur":4885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663756917153733, "dur":43405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663756917197144, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663756917197157, "dur":1052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663756917198256, "dur":36467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663756917234729, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663756917234739, "dur":1350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663756917236127, "dur":52944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663756917289075, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663756917289092, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663756917290570, "dur":117956, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663756917408537, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663756917408566, "dur":1405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663756917410016, "dur":39866, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663756917449890, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663756917449905, "dur":1132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663756917451077, "dur":92352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663756917543436, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663756917543449, "dur":2069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663756917545563, "dur":135644, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663756917681235, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1663756917681247, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":2, "ts":1663756917682415, "dur":186067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663756916948238, "dur":540, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663756916948778, "dur":5214, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663756916953992, "dur":437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1663756916954726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663756916960666, "dur":382092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1663756917342805, "dur":72555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663756917415369, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663756917415382, "dur":1220, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663756917416649, "dur":9281, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663756917425939, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663756917425959, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663756917427106, "dur":107064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663756917534176, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663756917534190, "dur":1750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663756917535984, "dur":120159, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663756917656148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1663756917656157, "dur":1369, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1663756917657574, "dur":210924, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663756916948201, "dur":564, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663756916948766, "dur":5275, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663756916954041, "dur":362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1663756916954408, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663756916960150, "dur":77211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":4, "ts":1663756917037400, "dur":111385, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663756917148792, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663756917148806, "dur":5704, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663756917154551, "dur":136156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663756917290712, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663756917290755, "dur":2538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663756917293341, "dur":36067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663756917329416, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663756917329432, "dur":1695, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663756917331174, "dur":163524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663756917494702, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663756917494711, "dur":2734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663756917497515, "dur":176429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663756917673947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1663756917673956, "dur":1339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":4, "ts":1663756917675341, "dur":193132, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663756916948225, "dur":546, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663756916948771, "dur":5269, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663756916954040, "dur":12342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1663756916966388, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663756916966566, "dur":3599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1663756916970206, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1663756916970313, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663756916970321, "dur":4541, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1663756916974911, "dur":40753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663756917015670, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663756917015680, "dur":133711, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663756917149426, "dur":20577, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663756917170010, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663756917170024, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663756917171452, "dur":22266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663756917193726, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663756917193741, "dur":1227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663756917195009, "dur":37456, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663756917232473, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663756917232489, "dur":1246, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663756917233778, "dur":25517, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663756917259401, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663756917259467, "dur":5301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663756917264833, "dur":115584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663756917380423, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663756917380435, "dur":1198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663756917381675, "dur":37415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663756917419099, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663756917419114, "dur":4395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663756917423557, "dur":74467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663756917498029, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663756917498041, "dur":960, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663756917499039, "dur":217356, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663756917716401, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1663756917716412, "dur":2207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1663756917718655, "dur":149832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663756916948271, "dur":513, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663756916948784, "dur":5015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663756916953800, "dur":148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1663756916953953, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663756916960302, "dur":289495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1663756917249845, "dur":33544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663756917283394, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663756917283403, "dur":5802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663756917289259, "dur":56083, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663756917345349, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663756917345365, "dur":1136, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663756917346544, "dur":116243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663756917462792, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663756917462804, "dur":10640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663756917473487, "dur":97308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663756917570803, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663756917570821, "dur":1143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663756917572002, "dur":47625, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663756917619632, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663756917619641, "dur":1166, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":6, "ts":1663756917620843, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1663756917620904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1663756917620911, "dur":1232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1663756917622178, "dur":246280, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663756916948297, "dur":491, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663756916948788, "dur":5189, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663756916953977, "dur":14689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1663756916968671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663756916968753, "dur":886, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1663756916969680, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1663756916969806, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663756916969815, "dur":328350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1663756917298218, "dur":149939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663756917448165, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663756917448186, "dur":2129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663756917450361, "dur":59653, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663756917510020, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663756917510034, "dur":958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663756917511029, "dur":61701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663756917572735, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663756917572748, "dur":1118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663756917573914, "dur":291002, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663756917864921, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1663756917864933, "dur":3414, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1663756917868398, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1663756917868402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663756916948319, "dur":473, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663756916948792, "dur":5172, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663756916953965, "dur":729, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1663756916954698, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663756916960548, "dur":15889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1663756916976482, "dur":48884, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub.exe" }}
+,{ "pid":12345, "tid":8, "ts":1663756917025371, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663756917025379, "dur":1302, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub.exe" }}
+,{ "pid":12345, "tid":8, "ts":1663756917026723, "dur":122220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663756917148948, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663756917148957, "dur":3636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663756917152654, "dur":46253, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663756917198912, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663756917198953, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663756917200149, "dur":61451, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663756917261605, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663756917261618, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663756917262917, "dur":66627, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663756917329548, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663756917329558, "dur":13668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663756917343266, "dur":62209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663756917405484, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663756917405502, "dur":3235, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663756917408788, "dur":26277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663756917435076, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663756917435096, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663756917436485, "dur":156466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663756917592958, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663756917592971, "dur":1068, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663756917594075, "dur":25955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663756917620035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663756917620043, "dur":1099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":8, "ts":1663756917621183, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1663756917621232, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1663756917621238, "dur":1133, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1663756917622406, "dur":246079, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663756916948344, "dur":454, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663756916948798, "dur":5104, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663756916953903, "dur":19101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1663756916973008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663756916973029, "dur":2498, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1663756916975571, "dur":4681, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1663756916980257, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663756916980265, "dur":8545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":9, "ts":1663756916988857, "dur":159995, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663756917148858, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663756917148869, "dur":4955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663756917153869, "dur":41153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663756917195026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663756917195038, "dur":948, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663756917196021, "dur":39550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663756917235605, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663756917235617, "dur":1140, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663756917236801, "dur":46277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663756917283129, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663756917283150, "dur":2059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663756917285259, "dur":44568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663756917329831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663756917329839, "dur":1506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663756917331388, "dur":38664, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663756917370059, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663756917370075, "dur":1077, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663756917371195, "dur":984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663756917372184, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663756917372198, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663756917373393, "dur":98760, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663756917472205, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663756917472222, "dur":1624, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663756917473892, "dur":81435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663756917555336, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663756917555349, "dur":1247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663756917556635, "dur":99311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663756917655955, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1663756917655972, "dur":1784, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1663756917657799, "dur":210672, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663756916948367, "dur":434, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663756916948801, "dur":4983, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663756916953785, "dur":54685, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1663756917008475, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663756917008556, "dur":20195, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1663756917028792, "dur":120095, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663756917148891, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663756917148900, "dur":3575, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663756917152526, "dur":34744, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663756917187277, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663756917187291, "dur":1154, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663756917188489, "dur":36955, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663756917225449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663756917225460, "dur":1138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663756917226643, "dur":28643, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663756917255296, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663756917255311, "dur":1337, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663756917256700, "dur":26629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663756917283334, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663756917283343, "dur":5564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663756917288967, "dur":105734, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663756917394710, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663756917394726, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663756917396061, "dur":85879, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663756917481949, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663756917481964, "dur":3546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663756917485560, "dur":105121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663756917590689, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663756917590702, "dur":3771, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1663756917594516, "dur":8889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1663756917603413, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663756917603924, "dur":934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":10, "ts":1663756917604897, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1663756917604939, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663756917605000, "dur":1153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1663756917606193, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1663756917606240, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663756917606250, "dur":3122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1663756917609421, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1663756917609466, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663756917609476, "dur":2872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":10, "ts":1663756917612401, "dur":126, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1663756917612530, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663756917612539, "dur":991, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":10, "ts":1663756917613579, "dur":5993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1663756917619579, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663756917619593, "dur":1666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":10, "ts":1663756917621299, "dur":176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1663756917621479, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1663756917621485, "dur":1032, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/boot.config" }}
+,{ "pid":12345, "tid":10, "ts":1663756917622552, "dur":245905, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663756916948389, "dur":415, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663756916948805, "dur":4974, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663756916953785, "dur":68742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1663756917022535, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663756917022781, "dur":996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":11, "ts":1663756917023812, "dur":125105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663756917148941, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663756917148956, "dur":4440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663756917153595, "dur":146882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663756917300485, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663756917300501, "dur":2191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663756917302733, "dur":75184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663756917377924, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663756917377940, "dur":1148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663756917379127, "dur":39963, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663756917419099, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663756917419114, "dur":7194, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663756917426358, "dur":30944, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663756917457311, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663756917457325, "dur":5183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663756917462558, "dur":163373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663756917625938, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1663756917625970, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1663756917627127, "dur":241340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663756916948405, "dur":403, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663756916948808, "dur":5239, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663756916954047, "dur":13408, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1663756916967459, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663756916967481, "dur":2909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1663756916970428, "dur":3085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663756916973517, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663756916973927, "dur":2933, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663756916976904, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1663756916977075, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663756916977388, "dur":16723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1663756916994164, "dur":154607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663756917148783, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663756917148805, "dur":13571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663756917162493, "dur":99446, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663756917261944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663756917261954, "dur":3168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663756917265162, "dur":47347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663756917312514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663756917312527, "dur":1435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663756917314009, "dur":40245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663756917354263, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663756917354308, "dur":6190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663756917360544, "dur":230827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663756917591375, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663756917591463, "dur":1931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663756917593432, "dur":186301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663756917779739, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1663756917779750, "dur":1415, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1663756917781196, "dur":87266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663756916948425, "dur":387, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663756916948812, "dur":4972, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663756916953786, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1663756916954205, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663756916978523, "dur":28620, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1663756917007203, "dur":141568, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663756917148783, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663756917148805, "dur":4834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663756917153680, "dur":29766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663756917183451, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663756917183460, "dur":1645, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663756917185146, "dur":36966, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663756917222121, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663756917222136, "dur":2466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663756917224698, "dur":36102, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663756917260808, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663756917260822, "dur":1031, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663756917261894, "dur":49510, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663756917311447, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663756917311462, "dur":1596, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663756917313104, "dur":88563, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663756917401674, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663756917401688, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663756917403063, "dur":90228, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663756917493299, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663756917493313, "dur":1113, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663756917494465, "dur":96318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663756917590788, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663756917590797, "dur":2796, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663756917593631, "dur":130006, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663756917723644, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1663756917723658, "dur":1119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":13, "ts":1663756917724804, "dur":143685, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663756916948451, "dur":365, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663756916948816, "dur":5024, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663756916953841, "dur":122, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1663756916953967, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663756916963122, "dur":21466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1663756916984649, "dur":47116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663756917031773, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663756917032061, "dur":1013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663756917033131, "dur":115789, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663756917148944, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663756917148956, "dur":4122, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663756917153136, "dur":137755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663756917290896, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663756917290907, "dur":2470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663756917293426, "dur":31555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663756917324999, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663756917325028, "dur":2289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663756917327360, "dur":55544, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663756917382910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663756917382923, "dur":1257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663756917384222, "dur":60981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663756917445253, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663756917445271, "dur":1331, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663756917446646, "dur":265365, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663756917712016, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1663756917712026, "dur":2418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":14, "ts":1663756917714489, "dur":153987, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663756916948471, "dur":350, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663756916948821, "dur":4962, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663756916953786, "dur":17650, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1663756916971441, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663756916971508, "dur":823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":15, "ts":1663756916972370, "dur":18974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663756916991350, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663756916991447, "dur":6090, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663756916997583, "dur":35766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663756917033353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663756917033842, "dur":978, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663756917034860, "dur":113984, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663756917148849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663756917148860, "dur":2557, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663756917151475, "dur":82663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663756917234143, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663756917234157, "dur":1460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663756917235672, "dur":47943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663756917283619, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663756917283628, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663756917285164, "dur":33309, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663756917318482, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663756917318497, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663756917320246, "dur":31907, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663756917352161, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663756917352173, "dur":5680, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663756917357901, "dur":108553, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663756917466462, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663756917466476, "dur":8162, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663756917474674, "dur":34164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663756917508849, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663756917508867, "dur":1183, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663756917510094, "dur":163845, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663756917673945, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1663756917673956, "dur":2091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":15, "ts":1663756917676071, "dur":192404, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663756916948493, "dur":334, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663756916948827, "dur":4954, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663756916953786, "dur":377, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1663756916954166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663756916978200, "dur":4170, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":16, "ts":1663756916982416, "dur":166474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663756917148894, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663756917148940, "dur":3156, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663756917152139, "dur":31274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663756917183421, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663756917183435, "dur":1546, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663756917185029, "dur":59276, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663756917244313, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663756917244423, "dur":1831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663756917246298, "dur":57399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663756917303703, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663756917307362, "dur":1493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663756917308900, "dur":42708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663756917351618, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663756917351636, "dur":1168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663756917352844, "dur":106743, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663756917459595, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663756917459609, "dur":12609, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663756917472280, "dur":145291, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663756917617580, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663756917617596, "dur":2075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":16, "ts":1663756917619718, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/level0.resS" }}
+,{ "pid":12345, "tid":16, "ts":1663756917619762, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663756917619768, "dur":1142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/level0.resS" }}
+,{ "pid":12345, "tid":16, "ts":1663756917620948, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1663756917620992, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1663756917620998, "dur":1281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/tilow/Desktop/GitHub/technoviumunlimited_unity3d/Game Builds/test Gethub_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":16, "ts":1663756917622325, "dur":246134, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1663756917875591, "dur":2379, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1663756917904322, "dur": 657, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1663756917903921, "dur": 1081, "ph": "X", "name": "Write chrome-trace events", "args": {} },
