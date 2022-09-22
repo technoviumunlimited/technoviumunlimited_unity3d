@@ -29,7 +29,11 @@ public class DriveCar : MonoBehaviour
         
 
         
-        if (Break == true && MySpeed > 15) { rb.AddForce( this.transform.forward *10   * (Speed /3) * -1,ForceMode.Force);}
+        if (Break == true && MySpeed > 15) 
+        {
+            rb.AddForce( this.transform.forward *10   * (Speed /3) * -1,ForceMode.Force);
+            this.transform.Rotate(new Vector3(0, Horizontal / 100* MySpeed * steeringSpeed *2,0));
+        }
         else 
         {
             if(Vertical > 0)
@@ -49,7 +53,6 @@ public class DriveCar : MonoBehaviour
     }
     void Update()
     {
-        SpeedCalculator();
         MyInput ();
     }
 
@@ -60,9 +63,11 @@ public class DriveCar : MonoBehaviour
         if( Input.GetKey(BreakKey)){ Break =true;} else {Break = false;}
     }
 
-    void SpeedCalculator() 
+     public float SpeedCalculator() 
     {    
         MySpeed = (transform.position - lastPosition).magnitude / Time.deltaTime;
         lastPosition = transform. position;
+        return MySpeed;
+        
     }
 }
