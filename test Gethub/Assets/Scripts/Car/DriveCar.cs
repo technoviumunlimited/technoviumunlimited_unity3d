@@ -20,40 +20,42 @@ public class DriveCar : MonoBehaviour
      
     void Start()
     {
-        rb = GetComponent<Rigidbody>();       
+        rb = GetComponent<Rigidbody>(); 
+        rb.freezeRotation = true;            
     }
 
     void FixedUpdate ()
-    {
-        
+    {     
         
 
-        
+        Debug.Log(MySpeed);
         if (Break == true && MySpeed > 15) 
         {
             rb.AddForce( this.transform.forward *10   * (Speed /3) * -1,ForceMode.Force);
             this.transform.Rotate(new Vector3(0, Horizontal / 100* MySpeed * steeringSpeed *2,0));
+            
         }
         else 
         {
-            if(Vertical > 0)
-        {
-            rb.AddForce( this.transform.forward *10  *Vertical  * Speed,ForceMode.Force);
+            if(Vertical >= 0)
+             {
+                rb.AddForce( this.transform.forward *10  *Vertical  * Speed,ForceMode.Force);
 
-            this.transform.Rotate(new Vector3(0,Horizontal/ 100* MySpeed * steeringSpeed,0));
-        }
-        else if (Vertical < 0 )
-        {
-            rb.AddForce( this.transform.forward *10  *Vertical  * (Speed /3),ForceMode.Force);
+                this.transform.Rotate(new Vector3(0,Horizontal/ 100* MySpeed * steeringSpeed,0));
+            }
+            else if (Vertical < 0 )
+            {
+                rb.AddForce( this.transform.forward *10  *Vertical  * (Speed /3),ForceMode.Force);
 
-            this.transform.Rotate(new Vector3(0, (Horizontal * -1)/ 100* MySpeed * steeringSpeed,0));
-        }
-        else  this.transform.Rotate(new Vector3(0,Horizontal/ 100* MySpeed * steeringSpeed,0));
+                this.transform.Rotate(new Vector3(0, (Horizontal * -1)/ 100* MySpeed * steeringSpeed,0));
+            }
+            //else  this.transform.Rotate(new Vector3(0,Horizontal/ 100* 100 * steeringSpeed,0));
         }
     }
     void Update()
     {
         MyInput ();
+        SpeedCalculator() ;
     }
 
     void MyInput ()
