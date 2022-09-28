@@ -5,10 +5,10 @@ using UnityEngine;
 public class PlayerMove : MonoBehaviour
 {
     [Header("Player stings")]
-    public float WalkSpeed = 4;
-    public float SprintSpeed = 7;
-    public float jumpForce = 6;
-    public float jumpCooldown = 0.1f;
+    public float WalkSpeed = 400;
+    public float SprintSpeed = 700;
+    public float jumpForce = 500;
+    public float jumpCooldown = 1f;
     public float airMultiplier = 0.1f;
     public float groundDrag = 5;
     public float airDrag = 0.5f; 
@@ -56,10 +56,10 @@ public class PlayerMove : MonoBehaviour
             Physics
                 .Raycast(transform.position,
                 Vector3.down,
-                1.2f,
+                1.3f,
                 whatIsGround);
-     
-
+        
+        Debug.DrawRay(transform.position, Vector3.down, Color.red);
         // Aply Drag
         if (grounded)
         {
@@ -70,6 +70,14 @@ public class PlayerMove : MonoBehaviour
             rb.drag = airDrag;
         }
     }
+
+
+  
+
+
+
+
+
 
     void FixedUpdate()
     {

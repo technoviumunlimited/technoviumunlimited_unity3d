@@ -4,72 +4,58 @@ using UnityEngine;
 
 public class DriveCar : MonoBehaviour
 {
-
-    public float Speed = 10;
-    public float steeringSpeed = 1;
-
-    float MySpeed;
+    Rigidbody rb;
+    public float Speed;
+    public float SpeedBackwards;
+    public float SteeringSpeed;
     float Vertical;
     float Horizontal;
-    bool Break;
+    float YRotation;
 
-
-    Rigidbody rb;
-    Vector3 lastPosition;
-    public KeyCode BreakKey = KeyCode.Space;
-     
     void Start()
     {
-        rb = GetComponent<Rigidbody>(); 
-        rb.freezeRotation = true;            
-    }
-
-    void FixedUpdate ()
-    {     
-        
-
-        Debug.Log(MySpeed);
-        if (Break == true && MySpeed > 15) 
-        {
-            rb.AddForce( this.transform.forward *10   * (Speed /3) * -1,ForceMode.Force);
-            this.transform.Rotate(new Vector3(0, Horizontal / 100* MySpeed * steeringSpeed *2,0));
-            
-        }
-        else 
-        {
-            if(Vertical >= 0)
-             {
-                rb.AddForce( this.transform.forward *10  *Vertical  * Speed,ForceMode.Force);
-
-                this.transform.Rotate(new Vector3(0,Horizontal/ 100* MySpeed * steeringSpeed,0));
-            }
-            else if (Vertical < 0 )
-            {
-                rb.AddForce( this.transform.forward *10  *Vertical  * (Speed /3),ForceMode.Force);
-
-                this.transform.Rotate(new Vector3(0, (Horizontal * -1)/ 100* MySpeed * steeringSpeed,0));
-            }
-            //else  this.transform.Rotate(new Vector3(0,Horizontal/ 100* 100 * steeringSpeed,0));
-        }
+        rb = GetComponent<Rigidbody>();
+        YRotation = transform.rotation.y;
     }
     void Update()
     {
-        MyInput ();
-        SpeedCalculator() ;
+        input();
     }
 
-    void MyInput ()
+    void input()
     {
-        Horizontal = Input.GetAxisRaw("Horizontal");
-        Vertical = Input.GetAxisRaw("Vertical");
-        if( Input.GetKey(BreakKey)){ Break =true;} else {Break = false;}
+        Vertical=  Input.GetAxis("Vertical");
+        Horizontal= Input.GetAxis("Horizontal");
     }
 
-     public float SpeedCalculator() 
-    {    
-        MySpeed = (transform.position - lastPosition).magnitude / Time.deltaTime;
-        lastPosition = transform. position;
-        return MySpeed;
+    void FixedUpdate()
+    {   
+        this.transform.rotation = Quaternion.Euler(new Vector3( this.transform.rotation.x,YRotation *SteeringSpeed ,this.transform.rotation.z));
+        
+        if(Vertical >= 0) // voor uit
+        {
+            rb.AddForce(this.transform.forward * Speed * Vertical);
+            
+            YRotation = YRotation + Horizontal;
+        }
+        else if(Vertical < 0) // achter uit
+        {
+            rb.AddForce(this.transform.forward * SpeedBackwards * Vertical);
+ 
+            YRotation = YRotation - Horizontal;
+        }
+        
         
     }
+     
 }
+
+
+
+
+
+
+
+
+
+
