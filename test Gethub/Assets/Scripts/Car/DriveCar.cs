@@ -11,11 +11,13 @@ public class DriveCar : MonoBehaviour
     float Vertical;
     float Horizontal;
     float YRotation;
+    Vector3 lastPosition = Vector3.zero;
+   public float speedCar;
 
     void Start()
     {
         rb = GetComponent<Rigidbody>();
-        YRotation = transform.rotation.y;
+        YRotation = 90;
     }
     void Update()
     {
@@ -30,23 +32,35 @@ public class DriveCar : MonoBehaviour
 
     void FixedUpdate()
     {   
-        this.transform.rotation = Quaternion.Euler(new Vector3( this.transform.rotation.x,YRotation *SteeringSpeed ,this.transform.rotation.z));
+        
+        this.transform.rotation = Quaternion.Euler(new Vector3( this.transform.rotation.x,YRotation ,this.transform.rotation.z ));
         
         if(Vertical >= 0) // voor uit
         {
             rb.AddForce(this.transform.forward * Speed * Vertical);
             
-            YRotation = YRotation + Horizontal;
+            YRotation = YRotation +  (Horizontal * SteeringSpeed * speedCar);
         }
         else if(Vertical < 0) // achter uit
         {
             rb.AddForce(this.transform.forward * SpeedBackwards * Vertical);
  
-            YRotation = YRotation - Horizontal;
+            YRotation = YRotation - (Horizontal * SteeringSpeed * speedCar * 2f);
         }
         
-        
+        SpeedCar();
     }
+
+         
+    void SpeedCar()
+    {
+        
+        speedCar = (transform.position - lastPosition).magnitude;
+        lastPosition = transform.position;
+    }
+
+
+
      
 }
 
