@@ -363,6 +363,7 @@
 "Assets/Scripts/Player/PlayerCam.cs"
 "Assets/Scripts/Player/PlayerCameraPosition.cs"
 "Assets/Scripts/Player/PlayerMove.cs"
+"Assets/Scripts/Teleporter/Teleporter.cs"
 -langversion:9.0
 
 /deterministic
