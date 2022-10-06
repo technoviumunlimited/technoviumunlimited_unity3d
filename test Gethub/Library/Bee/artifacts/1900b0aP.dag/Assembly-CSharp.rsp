@@ -313,11 +313,14 @@
 -r:"Library/Bee/artifacts/1900b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aP.dag/UnityEngine.UI.ref.dll"
 "Assets/Scripts/Car/DriveCar.cs"
-"Assets/Scripts/Car/EnterCar.cs"
-"Assets/Scripts/NotToLo.cs"
+"Assets/Scripts/Car/EnterCer.cs"
+"Assets/Scripts/Maniger/Menu/ActevateMenu.cs"
+"Assets/Scripts/Maniger/Menu/Butons.cs"
+"Assets/Scripts/Maniger/NotToLo.cs"
 "Assets/Scripts/Player/PlayerCam.cs"
 "Assets/Scripts/Player/PlayerCameraPosition.cs"
 "Assets/Scripts/Player/PlayerMove.cs"
+"Assets/Scripts/Teleporter/Teleporter.cs"
 -langversion:9.0
 
 /deterministic

@@ -37,13 +37,13 @@ public class DriveCar : MonoBehaviour
         
         if(Vertical >= 0) // voor uit
         {
-            rb.AddForce(this.transform.forward * Speed * Vertical);
+            rb.AddForce(this.transform.forward * Speed * Vertical * 100);
             
             YRotation = YRotation +  (Horizontal * SteeringSpeed * speedCar);
         }
         else if(Vertical < 0) // achter uit
         {
-            rb.AddForce(this.transform.forward * SpeedBackwards * Vertical);
+            rb.AddForce(this.transform.forward * SpeedBackwards * Vertical * 100);
  
             YRotation = YRotation - (Horizontal * SteeringSpeed * speedCar * 2f);
         }
